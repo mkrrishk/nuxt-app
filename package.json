@@ -1,0 +1,33 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.39.6",
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/google-fonts": "^3.0.1",
+    "@nuxtjs/supabase": "^0.3.7",
+    "@nuxtjs/tailwindcss": "^6.8.0",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.3",
+    "@types/node": "^18",
+    "@unlok-co/nuxt-stripe": "^1.2.1",
+    "eslint": "^8.43.0",
+    "nuxt": "^3.6.2",
+    "nuxt-headlessui": "^1.1.4",
+    "nuxt-icon": "^0.4.2"
+  },
+  "dependencies": {
+    "@vee-validate/nuxt": "^4.10.2",
+    "@vee-validate/zod": "^4.10.2",
+    "zod": "^3.21.4"
+  }
+}
