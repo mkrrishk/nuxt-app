@@ -2,6 +2,10 @@
 
 A [Nuxt 3](https://nuxt.com/) App to demonstrate Tailwind CSS, Supabase & Stripe Integration.
 
+## Demo
+
+<https://nuxt-app-dashboard.vercel.app/>
+
 ## Tech Stack
 
 * Vue 3
@@ -11,6 +15,15 @@ A [Nuxt 3](https://nuxt.com/) App to demonstrate Tailwind CSS, Supabase & Stripe
 * Tailwind CSS
 
 ## Setup
+
+Set Environment Variables:
+
+```bash
+SUPABASE_URL
+SUPABASE_KEY
+STRIPE_API_KEY
+STRIPE_PUBLISHABLE_KEY
+```
 
 Make sure to install the dependencies:
 
